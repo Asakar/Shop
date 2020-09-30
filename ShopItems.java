@@ -1,7 +1,7 @@
 /*
 I have a general class for the shops items which has normal paramaters name, price and
 discountPercentage which any normal item would have. I use this class as my parent class.
-If a incorrect discountPercentage is added than it will throw a error =. In all of the to string methods
+If a incorrect discountPercentage is added than it will throw a error. In all of the to string methods
 I have applied the discount if the discount percentage is greater than 0.
 This class can now be used to create objects of your ordinary items, as for items that require more detail such
 as DVD and books they can be dealt with using a separate class which extends this class, this is what I have done.
